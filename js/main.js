@@ -122,7 +122,7 @@ var writeToScreen = function(){
 answer1.innerHTML = "The average price is " + "$" +(Math.round(avgPrice(items) * 10)/10)
 answer2.innerHTML = pRangeArray[0] + "<br><br>" + pRangeArray[1] + "<br><br>" + pRangeArray[2] + "<br><br>" + pRangeArray[3] + "<br><br>" + pRangeArray[4]
 answer3.innerHTML = gpbItem[1] + " costs £" + gpbItem[0];
-answer4.innerHTML = (matCountArrayTitle[1] + " has " + matCountArray[1].length + " materials: "  + "<br>" + matCountArray[1]+ "<br><br>" + matCountArrayTitle[0] + " has " + matCountArray[0].length + " materials: "  + "<br>" + matCountArray[0] )
+answer4.innerHTML = (matCountArrayTitle[1] + " has " + matCountArray[1].length + " materials: "  + "<br><br>" + matCountArray[1]+ "<br><br>" + matCountArrayTitle[0] + " has " + matCountArray[0].length + " materials: "  + "<br><br>" + matCountArray[0] )
 // answer5.innerHTML =
 answer6.innerHTML = madeBy(items)
 }
