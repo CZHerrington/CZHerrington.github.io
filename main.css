@@ -1,13 +1,13 @@
 .container{
   background-color: #f2f2f3;
  width: 900px;
-   font-family: 'Fjalla One', sans-serif;
-   font-size: 24px;
-   color: #666666;
 }
 
-.title{
+ .title{
   padding-bottom: 30px;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 24px;
+  color: #666666;
 }
 
 .bg{
