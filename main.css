@@ -1,0 +1,53 @@
+.container{
+  background-color: #f2f2f3;
+ width: 900px;
+   font-family: 'Fjalla One', sans-serif;
+   font-size: 24px;
+   color: #666666;
+}
+
+.title{
+  padding-bottom: 30px;
+}
+
+.bg{
+  width: 900px;
+}
+
+h3{
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 28px;
+  color: #4d4d4d;
+}
+.answer{
+  text-align: center;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 18px;
+  width: 500px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7a7a85;
+}
+
+
+.answerbox{
+  text-align: center;
+  width: 500px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer{
+  width: 900px;
+  height: 90px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  background-color: #333333;
+  color: #cccccc;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 18px;
+}

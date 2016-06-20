@@ -2,9 +2,7 @@
 var gpbItem = [];
 var matCountArray = [];
 var matCountArrayTitle = [];
-
-
-
+  var pRangeArray = [];
 // Initializer
 
 
@@ -40,7 +38,6 @@ return (pricesTotal / numOfPrices);
 
 
 var PriceRange = function(items) {
-  var pRangeArray = [];
   items.forEach(function (items){
     if ((items.price >= 14) && (items.price <= 18)) {pRangeArray.push(items.title); }
   });
@@ -113,14 +110,18 @@ var madeBy = function(items) {
   });
   return madeBySeller.length + " were made by their sellers";
 }
+// Question 6
+
+// DRAW
 
 moreThanEight(items);
 GPBitem(items);
+PriceRange(items)
 
 var writeToScreen = function(){
-answer1.innerHTML = "The average price is " + (Math.round(avgPrice(items) * 10)/10)
-answer2.innerHTML = PriceRange(items)
-answer3.innerHTML = gpbItem[1] + " costs " + gpbItem[0];
+answer1.innerHTML = "The average price is " + "$" +(Math.round(avgPrice(items) * 10)/10)
+answer2.innerHTML = pRangeArray[0] + "<br><br>" + pRangeArray[1] + "<br><br>" + pRangeArray[2] + "<br><br>" + pRangeArray[3] + "<br><br>" + pRangeArray[4]
+answer3.innerHTML = gpbItem[1] + " costs £" + gpbItem[0];
 answer4.innerHTML = (matCountArrayTitle[1] + " has " + matCountArray[1].length + " materials: "  + "<br>" + matCountArray[1]+ "<br><br>" + matCountArrayTitle[0] + " has " + matCountArray[0].length + " materials: "  + "<br>" + matCountArray[0] )
 // answer5.innerHTML =
 answer6.innerHTML = madeBy(items)
